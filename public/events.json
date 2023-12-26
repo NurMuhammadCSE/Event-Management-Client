@@ -1,0 +1,167 @@
+[
+  {
+    "title": "Music Festival",
+    "date": "2023-06-10",
+    "time": "18:00",
+    "location": "City Park",
+    "description": "Join us for a day of music and fun in the sun!",
+    "category": "Concert",
+    "imageUrl": "https://shorturl.at/fEUWX",
+    "attendees": 500,
+    "registrationLink": "https://example.com/music-festival-registration"
+  },
+  {
+    "title": "Tech Conference",
+    "date": "2023-07-15",
+    "time": "09:00",
+    "location": "Tech Hub Conference Center",
+    "description": "Explore the latest trends and innovations in technology.",
+    "category": "Conference",
+    "imageUrl": "https://shorturl.at/fEUWX",
+    "attendees": 300,
+    "registrationLink": "https://example.com/tech-conference-registration"
+  },
+  {
+    "title": "Sports Tournament",
+    "date": "2023-08-20",
+    "time": "14:30",
+    "location": "City Sports Complex",
+    "description": "Cheer for your favorite teams in an exciting sports competition.",
+    "category": "Sports",
+    "imageUrl": "https://shorturl.at/fEUWX",
+    "attendees": 200,
+    "registrationLink": "https://example.com/sports-tournament-registration"
+  },
+  {
+    "title": "Art Exhibition",
+    "date": "2023-09-05",
+    "time": "11:00",
+    "location": "City Art Gallery",
+    "description": "Experience a showcase of breathtaking artworks from local and international artists.",
+    "category": "Art",
+    "imageUrl": "https://pbs.twimg.com/media/CcafXo-W0AAK-sP?format=jpg&name=900x900",
+    "attendees": 100,
+    "registrationLink": "https://example.com/art-exhibition-registration"
+  },
+  {
+    "title": "Food Festival",
+    "date": "2023-10-12",
+    "time": "16:00",
+    "location": "Downtown Food Street",
+    "description": "Savor delicious cuisines from around the world at our annual food festival.",
+    "category": "Food & Drink",
+    "imageUrl": "https://shorturl.at/jnGQ0",
+    "attendees": 250,
+    "registrationLink": "https://example.com/food-festival-registration"
+  },
+  {
+    "title": "Film Screening",
+    "date": "2023-11-18",
+    "time": "19:30",
+    "location": "City Cinema",
+    "description": "Enjoy an evening of captivating films from emerging filmmakers.",
+    "category": "Film",
+    "imageUrl": "https://shorturl.at/fEUWX",
+    "attendees": 120,
+    "registrationLink": "https://example.com/film-screening-registration"
+  },
+  {
+    "title": "Charity Gala",
+    "date": "2023-12-03",
+    "time": "20:00",
+    "location": "Grand Ballroom",
+    "description": "Support a good cause while enjoying an elegant evening of music and entertainment.",
+    "category": "Charity",
+    "imageUrl": "https://shorturl.at/gsINW",
+    "attendees": 300,
+    "registrationLink": "https://example.com/charity-gala-registration"
+  },
+  {
+    "title": "Esports Arena ",
+    "date": "2024-01-08",
+    "time": "17:00",
+    "location": "Fashion Plaza",
+    "description": "Witness the latest trends on the runway in our annual fashion extravaganza.",
+    "category": "Gaming",
+    "imageUrl": "https://shorturl.at/aenV0",
+    "attendees": 180,
+    "registrationLink": "https://example.com/fashion-show-registration"
+  },
+  {
+    "title": "Science Fair",
+    "date": "2024-02-14",
+    "time": "10:00",
+    "location": "City Science Center",
+    "description": "Explore the wonders of science through interactive exhibits and experiments.",
+    "category": "Science",
+    "imageUrl": "https://shorturl.at/BCDK5",
+    "attendees": 150,
+    "registrationLink": "https://example.com/science-fair-registration"
+  },
+  {
+    "title": "Book Launch",
+    "date": "2024-03-22",
+    "time": "18:30",
+    "location": "City Library",
+    "description": "Celebrate the release of a new literary masterpiece with the author and book enthusiasts.",
+    "category": "Literary",
+    "imageUrl": "https://example.com/book-launch.jpg",
+    "attendees": 80,
+    "registrationLink": "https://example.com/book-launch-registration"
+  },
+  {
+    "title": "Gaming Tournament",
+    "date": "2024-04-28",
+    "time": "14:00",
+    "location": "Gaming Arena",
+    "description": "Compete in thrilling video game battles and win exciting prizes.",
+    "category": "Gaming",
+    "imageUrl": "https://shorturl.at/aenV0",
+    "attendees": 120,
+    "registrationLink": "https://example.com/gaming-tournament-registration"
+  },
+  {
+    "title": "Science Fair",
+    "date": "2024-05-15",
+    "time": "08:00",
+    "location": "Serene Resort",
+    "description": "Revitalize your mind and body with a day of wellness activities and relaxation.",
+    "category": "Science",
+    "imageUrl": "https://shorturl.at/BCDK5",
+    "attendees": 100,
+    "registrationLink": "https://example.com/wellness-retreat-registration"
+  },
+  {
+    "title": "Technology Expo",
+    "date": "2024-06-20",
+    "time": "10:00",
+    "location": "Tech Expo Center",
+    "description": "Explore the latest advancements in technology and connect with industry leaders.",
+    "category": "Technology",
+    "imageUrl": "https://shorturl.at/BCDK5",
+    "attendees": 200,
+    "registrationLink": "https://example.com/technology-expo-registration"
+  },
+  {
+    "title": "Dance Performance",
+    "date": "2024-07-08",
+    "time": "19:00",
+    "location": "City Theater",
+    "description": "Be mesmerized by a captivating dance performance featuring talented artists.",
+    "category": "Dance",
+    "imageUrl": "https://shorturl.at/fEUWX",
+    "attendees": 150,
+    "registrationLink": "https://example.com/dance-performance-registration"
+  },
+  {
+    "title": "Outdoor Adventure Day",
+    "date": "2024-08-15",
+    "time": "09:00",
+    "location": "Adventure Park",
+    "description": "Embark on an exciting day of outdoor activities and adventure challenges.",
+    "category": "Adventure",
+    "imageUrl": "https://example.com/outdoor-adventure-day.jpg",
+    "attendees": 120,
+    "registrationLink": "https://example.com/outdoor-adventure-day-registration"
+  }
+]
