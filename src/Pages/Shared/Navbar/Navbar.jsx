@@ -24,21 +24,24 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
+              <a>Upcoming Events</a>
             </li>
             <li>
-              <a>Parent</a>
+              <a>Event Categories</a>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Music Concerts</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Sports & Fitness</a>
+                </li>
+                <li>
+                  <a>Conferences</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>About Us</a>
             </li>
           </ul>
         </div>
@@ -47,28 +50,31 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Item 1</a>
+            <a>Explore Events</a>
           </li>
           <li>
             <details>
-              <summary>Parent</summary>
+              <summary>Event Categories</summary>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Music Concerts</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Sports & Fitness</a>
+                </li>
+                <li>
+                  <a>Conferences</a>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-            <a>Item 3</a>
+            <a>Contact Us</a>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn">Sign Up</a>
       </div>
     </div>
   );
