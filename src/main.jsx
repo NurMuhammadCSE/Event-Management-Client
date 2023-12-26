@@ -5,15 +5,21 @@ import { RouterProvider } from "react-router-dom";
 import { router } from "./Routes/Routes";
 import "react-awesome-button/dist/styles.css";
 import { QueryClient, QueryClientProvider } from "react-query";
+import AuthProvider from "./Providers/AuthProvider";
+import { HelmetProvider } from "react-helmet-async";
 
 const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <div className="max-w-screen-xl mx-auto">
-        <RouterProvider router={router} />
-      </div>{" "}
-    </QueryClientProvider>
+    <HelmetProvider>
+      <AuthProvider>
+        <QueryClientProvider client={queryClient}>
+          <div className="max-w-screen-xl mx-auto">
+            <RouterProvider router={router} />
+          </div>{" "}
+        </QueryClientProvider>
+      </AuthProvider>
+    </HelmetProvider>
   </React.StrictMode>
 );

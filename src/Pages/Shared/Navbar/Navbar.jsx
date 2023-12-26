@@ -1,4 +1,22 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
+  const navOptions = (
+    <>
+      <li>
+        <Link className="uppercase" to="/">Upcoming Events</Link>
+      </li>
+      <li>
+        <Link className="uppercase" to="/">Event Categories</Link>
+      </li>
+      <li>
+        <Link className="uppercase" to="/">About Us</Link>
+      </li>
+      <li>
+        <Link className="uppercase" to="/login">About Us</Link>
+      </li>
+    </>
+  );
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -23,58 +41,16 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li>
-              <a>Upcoming Events</a>
-            </li>
-            <li>
-              <a>Event Categories</a>
-              <ul className="p-2">
-                <li>
-                  <a>Music Concerts</a>
-                </li>
-                <li>
-                  <a>Sports & Fitness</a>
-                </li>
-                <li>
-                  <a>Conferences</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>About Us</a>
-            </li>
+            {navOptions}
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">Eventify</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Explore Events</a>
-          </li>
-          <li>
-            <details>
-              <summary>Event Categories</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Music Concerts</a>
-                </li>
-                <li>
-                  <a>Sports & Fitness</a>
-                </li>
-                <li>
-                  <a>Conferences</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <a>Contact Us</a>
-          </li>
-        </ul>
+        <ul className="menu menu-horizontal px-1">{navOptions}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Sign Up</a>
+        <Link className="btn uppercase" to={"/login"}>Login</Link>
       </div>
     </div>
   );
