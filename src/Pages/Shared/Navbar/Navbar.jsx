@@ -1,19 +1,36 @@
 import { Link } from "react-router-dom";
+import useAuth from "../../../hooks/useAuth";
 
 const Navbar = () => {
+  const { user, logOut } = useAuth();
+  const handleLogout = () => {
+    logOut()
+      .then(() => {})
+      .catch((error) => console.log(error));
+  };
   const navOptions = (
     <>
       <li>
-        <Link className="uppercase" to="/">Upcoming Events</Link>
+        <Link className="uppercase" to="/">
+          Upcoming Events
+        </Link>
       </li>
       <li>
-        <Link className="uppercase" to="/">Event Categories</Link>
+        <Link className="uppercase" to="/">
+          Event Categories
+        </Link>
       </li>
       <li>
-        <Link className="uppercase" to="/">About Us</Link>
+        <Link className="uppercase" to="/">
+          About Us
+        </Link>
       </li>
       <li>
-        <Link className="uppercase" to="/login">About Us</Link>
+        {user?.email && (
+          <Link onClick={handleLogout} className="uppercase" to="/login">
+            Log out
+          </Link>
+        )}
       </li>
     </>
   );
@@ -50,7 +67,17 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navOptions}</ul>
       </div>
       <div className="navbar-end">
-        <Link className="btn uppercase" to={"/login"}>Login</Link>
+        {user?.email ? (
+          <div className="avatar">
+            <div className="w-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+              <img src={user?.photoURL} />
+            </div>
+          </div>
+        ) : (
+          <Link className="btn uppercase" to={"/login"}>
+            Login
+          </Link>
+        )}
       </div>
     </div>
   );
